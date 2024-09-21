@@ -4,7 +4,7 @@ import axios from "axios";
 import RelatedProduct from "./RelatedProduct";
 function ProductDetail() {
   const { id } = useParams();
-  const url = "http://localhost:8000/api";
+  const url = "https://mern-e-commerce-cjkd.onrender.com/api";
 
   const [product, setProducts] = useState([]);
   useEffect(() => {
